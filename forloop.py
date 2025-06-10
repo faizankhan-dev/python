@@ -21,7 +21,7 @@ for i3 in range(1,6):
 
 for i4 in range(1,6):
     k=65
-    for j4 in range(1,i4+1):
+    for j4 in range(1,i4+1): 
         print(chr(k),end=" ")
         k+=1
     print()
