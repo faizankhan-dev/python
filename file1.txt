@@ -1,3 +1,10 @@
 hello my name is faizan
 hello my name is faizan khan
 hello my name is faizan k
+
+
+findindex is a method which can return index or position from an array 
+in whuich it is necessary condition to pass a anonymous functon 
+
+Q. make a crud operation on an javascript array using choice based input 
+   taken from user
