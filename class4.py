@@ -12,7 +12,24 @@
 # print(e.modelname)
 
 
-class point:
+# class point:
+#     def __init__(self,x=0,y=0):
+#         self.x=x
+#         self.y=y
+#     def __del__(self):
+#         class_name=self.__class__.__name__
+#         print(class_name,"Destroyed")
+
+# pt1=point()
+# pt2=pt1
+# pt3=pt1
+# print(id(pt1),id(pt2),id(pt3)) #Prints the ids of the object
+
+# del pt1
+# del pt2
+# del pt3
+
+class oint:
     def __init__(self,x=0,y=0):
         self.x=x
         self.y=y
@@ -20,13 +37,11 @@ class point:
         class_name=self.__class__.__name__
         print(class_name,"Destroyed")
 
-pt1=point()
-pt2=pt1
-pt3=pt1
-print(id(pt1),id(pt2),id(pt3)) #Prints the ids of the object
+pt1=oint()
+
+print(id(pt1)) #Prints the ids of the object
 
 del pt1
-# del pt2
-# del pt3
+
      
      
